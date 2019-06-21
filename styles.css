@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.scrollpercent{
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    position: fixed;
+    background-color: #60C2DF;
+    color: whitesmoke;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 1px #444;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.bottom-right{
+    top: 85%;
+    right: 5vw;
+}
+.bottom-left{
+    top: 85%;
+    left: 5vw;
+}
